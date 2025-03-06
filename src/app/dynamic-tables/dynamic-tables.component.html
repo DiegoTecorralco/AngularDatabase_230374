@@ -1,0 +1,18 @@
+<div class="container mt-4 ">
+    <table DataTable [dtOptions]- dtOptions- class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+            </tr>
+        </thead>
+        <body>
+            <tr ngfor="let user of user">
+                <td>((user.id))</td>
+                <td>((user.name))</td>
+                <td>((user.email))</td>
+            </tr>
+        </body>
+    </table> 
+</div>
